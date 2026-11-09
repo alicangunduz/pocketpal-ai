@@ -65,6 +65,7 @@ export const NON_LATIN_LOCALES: ReadonlyArray<AvailableLanguage> = [
   'ko',
   'pl',
   'ru',
+  'tr',
   'uk',
   'zh',
   'zh_Hant',

@@ -57,6 +57,7 @@ const ALL_LANGUAGES: AvailableLanguage[] = [
   'pt',
   'pt_BR',
   'ru',
+  'tr',
   'uk',
   'zh',
   'zh_Hant',
@@ -216,6 +217,7 @@ describe('exports', () => {
     expect(languageDisplayNames.ru).toBe(
       '\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (RU)',
     );
+    expect(languageDisplayNames.tr).toBe('T\u00FCrk\u00E7e (TR)');
     expect(languageDisplayNames.uk).toBe(
       '\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430 (UK)',
     );
